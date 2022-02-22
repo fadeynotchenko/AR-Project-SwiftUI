@@ -21,6 +21,9 @@
 		434C0D1327C506AB008C046F /* gramophone.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 434C0D0827C506AB008C046F /* gramophone.usdz */; };
 		434C0D1427C506AB008C046F /* cup_saucer_set.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 434C0D0927C506AB008C046F /* cup_saucer_set.usdz */; };
 		434C0D1527C506AB008C046F /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434C0D0B27C506AB008C046F /* Model.swift */; };
+		434C0D1927C50753008C046F /* BottomBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434C0D1627C50753008C046F /* BottomBarView.swift */; };
+		434C0D1A27C50753008C046F /* ModelsSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434C0D1727C50753008C046F /* ModelsSheetView.swift */; };
+		434C0D1B27C50753008C046F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434C0D1827C50753008C046F /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +42,9 @@
 		434C0D0827C506AB008C046F /* gramophone.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = gramophone.usdz; sourceTree = "<group>"; };
 		434C0D0927C506AB008C046F /* cup_saucer_set.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = cup_saucer_set.usdz; sourceTree = "<group>"; };
 		434C0D0B27C506AB008C046F /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		434C0D1627C50753008C046F /* BottomBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomBarView.swift; sourceTree = "<group>"; };
+		434C0D1727C50753008C046F /* ModelsSheetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelsSheetView.swift; sourceTree = "<group>"; };
+		434C0D1827C50753008C046F /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = "../../ARP-SwiftUI/ARP SwiftUI/ContentView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +79,9 @@
 			children = (
 				434C0CF227C50610008C046F /* AR_Project_SwiftUIApp.swift */,
 				434C0CF427C50610008C046F /* ContentView.swift */,
+				434C0D1627C50753008C046F /* BottomBarView.swift */,
+				434C0D1827C50753008C046F /* ContentView.swift */,
+				434C0D1727C50753008C046F /* ModelsSheetView.swift */,
 				434C0D0A27C506AB008C046F /* Swift Models */,
 				434C0D0027C506AB008C046F /* 3D Models */,
 				434C0CF627C50611008C046F /* Assets.xcassets */,
@@ -194,7 +203,10 @@
 			files = (
 				434C0D1527C506AB008C046F /* Model.swift in Sources */,
 				434C0CF527C50610008C046F /* ContentView.swift in Sources */,
+				434C0D1B27C50753008C046F /* ContentView.swift in Sources */,
 				434C0CF327C50610008C046F /* AR_Project_SwiftUIApp.swift in Sources */,
+				434C0D1927C50753008C046F /* BottomBarView.swift in Sources */,
+				434C0D1A27C50753008C046F /* ModelsSheetView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
