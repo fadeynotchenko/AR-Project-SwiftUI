@@ -23,7 +23,11 @@
 		434C0D1527C506AB008C046F /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434C0D0B27C506AB008C046F /* Model.swift */; };
 		434C0D1927C50753008C046F /* BottomBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434C0D1627C50753008C046F /* BottomBarView.swift */; };
 		434C0D1A27C50753008C046F /* ModelsSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434C0D1727C50753008C046F /* ModelsSheetView.swift */; };
-		434C0D1B27C50753008C046F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434C0D1827C50753008C046F /* ContentView.swift */; };
+		434C0D2027C508BA008C046F /* CustomARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434C0D1C27C508BA008C046F /* CustomARView.swift */; };
+		434C0D2127C508BA008C046F /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434C0D1D27C508BA008C046F /* SettingView.swift */; };
+		434C0D2227C508BA008C046F /* PlacementSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434C0D1E27C508BA008C046F /* PlacementSettings.swift */; };
+		434C0D2327C508BA008C046F /* PlacementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434C0D1F27C508BA008C046F /* PlacementView.swift */; };
+		434C0D2627C509C4008C046F /* FocusEntity in Frameworks */ = {isa = PBXBuildFile; productRef = 434C0D2527C509C4008C046F /* FocusEntity */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,7 +48,10 @@
 		434C0D0B27C506AB008C046F /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		434C0D1627C50753008C046F /* BottomBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomBarView.swift; sourceTree = "<group>"; };
 		434C0D1727C50753008C046F /* ModelsSheetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelsSheetView.swift; sourceTree = "<group>"; };
-		434C0D1827C50753008C046F /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = "../../ARP-SwiftUI/ARP SwiftUI/ContentView.swift"; sourceTree = "<group>"; };
+		434C0D1C27C508BA008C046F /* CustomARView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomARView.swift; sourceTree = "<group>"; };
+		434C0D1D27C508BA008C046F /* SettingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		434C0D1E27C508BA008C046F /* PlacementSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlacementSettings.swift; sourceTree = "<group>"; };
+		434C0D1F27C508BA008C046F /* PlacementView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlacementView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				434C0D2627C509C4008C046F /* FocusEntity in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,8 +88,11 @@
 				434C0CF227C50610008C046F /* AR_Project_SwiftUIApp.swift */,
 				434C0CF427C50610008C046F /* ContentView.swift */,
 				434C0D1627C50753008C046F /* BottomBarView.swift */,
-				434C0D1827C50753008C046F /* ContentView.swift */,
 				434C0D1727C50753008C046F /* ModelsSheetView.swift */,
+				434C0D1C27C508BA008C046F /* CustomARView.swift */,
+				434C0D1E27C508BA008C046F /* PlacementSettings.swift */,
+				434C0D1F27C508BA008C046F /* PlacementView.swift */,
+				434C0D1D27C508BA008C046F /* SettingView.swift */,
 				434C0D0A27C506AB008C046F /* Swift Models */,
 				434C0D0027C506AB008C046F /* 3D Models */,
 				434C0CF627C50611008C046F /* Assets.xcassets */,
@@ -138,6 +149,9 @@
 			dependencies = (
 			);
 			name = "AR Project SwiftUI";
+			packageProductDependencies = (
+				434C0D2527C509C4008C046F /* FocusEntity */,
+			);
 			productName = "AR Project SwiftUI";
 			productReference = 434C0CEF27C50610008C046F /* AR Project SwiftUI.app */;
 			productType = "com.apple.product-type.application";
@@ -166,6 +180,9 @@
 				Base,
 			);
 			mainGroup = 434C0CE627C50610008C046F;
+			packageReferences = (
+				434C0D2427C509C4008C046F /* XCRemoteSwiftPackageReference "FocusEntity" */,
+			);
 			productRefGroup = 434C0CF027C50610008C046F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -203,9 +220,12 @@
 			files = (
 				434C0D1527C506AB008C046F /* Model.swift in Sources */,
 				434C0CF527C50610008C046F /* ContentView.swift in Sources */,
-				434C0D1B27C50753008C046F /* ContentView.swift in Sources */,
+				434C0D2227C508BA008C046F /* PlacementSettings.swift in Sources */,
+				434C0D2327C508BA008C046F /* PlacementView.swift in Sources */,
 				434C0CF327C50610008C046F /* AR_Project_SwiftUIApp.swift in Sources */,
 				434C0D1927C50753008C046F /* BottomBarView.swift in Sources */,
+				434C0D2127C508BA008C046F /* SettingView.swift in Sources */,
+				434C0D2027C508BA008C046F /* CustomARView.swift in Sources */,
 				434C0D1A27C50753008C046F /* ModelsSheetView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +429,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		434C0D2427C509C4008C046F /* XCRemoteSwiftPackageReference "FocusEntity" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maxxfrazer/FocusEntity";
+			requirement = {
+				kind = exactVersion;
+				version = 2.2.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		434C0D2527C509C4008C046F /* FocusEntity */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 434C0D2427C509C4008C046F /* XCRemoteSwiftPackageReference "FocusEntity" */;
+			productName = FocusEntity;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 434C0CE727C50610008C046F /* Project object */;
 }
