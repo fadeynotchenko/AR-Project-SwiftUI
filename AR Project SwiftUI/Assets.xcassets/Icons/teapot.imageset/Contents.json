@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "teapot_usdz.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
